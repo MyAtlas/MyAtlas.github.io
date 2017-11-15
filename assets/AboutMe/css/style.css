@@ -1,0 +1,171 @@
+/* body */
+body {
+
+}
+
+/* Banner and Heading */
+
+header {
+    position:center;
+    display:block;
+    max-width:768px;
+    height:350px;
+    margin:0 auto;
+    padding:1rem 5rem;
+    background-image: url('../../Homepage/images/Banner.jpg');
+	   background-size: cover;
+}
+
+header h1 {
+	font-family: 'bicycle';
+	font-size: 50px;
+	color: #ffffff;
+	letter-spacing: 10px;
+    line-height: auto;
+    width: 510px;
+    margin-top: 100px;
+    position: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+header p {
+	font-family: "Myriad Pro", "Gill sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 25px;
+	color: #ffffff;
+    line-height: 45px;
+    position: center;
+}
+
+/* Navigation */
+
+nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    float:right;
+}
+
+nav  li {
+    position:relative;
+    display:inline-block;
+    list-style-type: none;
+    font-family: 'bicycle';
+    color: #ffffff;
+    padding:0 1rem;
+}
+nav li > a {
+    position: relative;
+    display: block;
+    padding: 10px 5px;
+}
+nav > li > a:hover,
+nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+/* Profile Section */
+
+body h2 {
+	font-family: "bicycle";
+	font-size: 40px;
+	position: center;
+	color: #54565b;
+}
+
+body p2 {
+    font-family: "bicycle";
+    font-size: 30px;
+    position: center;
+    color: #54565b;
+}
+
+/*Buttons*/
+
+/*.Buttons {
+	width: 50px;
+	height: 50px;
+	border: 0;
+	position: relative;
+	display: inline-flex;
+	padding: 10px;
+	float: center;
+}*/
+
+/*Buttons 2.0*/
+
+/*Contact Form*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*Footer*/
+
+footer {
+    position:relative;
+    display:block;
+    max-width:100%;
+    height:200px;
+    margin:0 auto;
+    padding:1rem 5rem;
+    background-image: url('../../Homepage/images/Footer_20.jpg');
+     background-size: cover;
+
+     .nav {
+      vertical-align: bottom;
+      text-align: right;
+     }
+}
+
+
+
+/* Fonts */
+
+@font-face {
+	font-family: bicycle;
+	src: url(css/fonts/bicycle-regular2.otf);
+}
+
+a {
+	font-family: 'bicycle';
+	font-size: 30px;
+	;
+}
