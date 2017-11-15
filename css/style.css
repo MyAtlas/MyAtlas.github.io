@@ -23,7 +23,7 @@ header h1 {
 	letter-spacing: 10px;
     line-height: auto;
     width: 510px;
-    margin-top: 50px;
+    margin-top: 0px;
     position: center;
     vertical-align: middle;
     box-sizing: border-box;
@@ -40,7 +40,7 @@ header p {
 	font-size: 25px;
 	color: #ffffff;
     line-height: 45px;
-    position: center;
+    position: right;
 }
 
 /* Navigation */
@@ -49,7 +49,7 @@ nav {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    float:right;
+    float:center;
 }
 
 nav  li {
@@ -58,7 +58,8 @@ nav  li {
     list-style-type: none;
     font-family: 'bicycle';
     color: #ffffff;
-    padding:0 1rem;
+    padding:0 3rem;
+    width: 20%;
 }
 nav li > a {
     position: relative;
@@ -158,7 +159,7 @@ footer {
 
      .nav {
       vertical-align: bottom;
-      text-align: right;
+      text-align: center;
      }
 }
 
