@@ -1,6 +1,29 @@
 /*RESET*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, form, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
 
+/* Colors */
+/*a {
+	color: #4C9CF1;
+	}
+header {
+	border-bottom: 4px solid #4C9CF1;
+	}
+current {
+	color: #2262AD;
+	}
+h1 {
+	color: #2262AD;
+	}
+resume dark{
+	color: #5771a2;
+	}
+resume light{
+	color: #8a99b6;
+	}
+old h1 grey{
+	color: #54565b;
+	}*/
+
 /*MAIN*/
 body { 
 	font-size: 1.5em;
@@ -12,7 +35,7 @@ body {
 
 a {
 
-	color: #4C9CF1;
+	color: #5771a2;
 	text-decoration: none;
 	font-weight: bold;
 
@@ -21,7 +44,8 @@ a {
 
 a:hover {
 
-	color: #444;
+	color: #8a99b6;
+	text-decoration: none;
 
 }
 
@@ -40,7 +64,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	border-bottom: 4px solid #4C9CF1;
+	border-bottom: 4px solid #5771a2;
 	z-index: 100;
 
 }
@@ -69,7 +93,7 @@ nav {
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #4C8FEC url(../img/menu-icon.png) center;
+	background: #5771a2 url(../img/menu-icon.png) center;
 
 }
 
@@ -96,7 +120,7 @@ li {
 
 .current {
 
-	color: #2262AD;
+	color: #8a99b6;
 
 }
 
@@ -112,7 +136,7 @@ section {
 h1 {
 
 	font-size: 2em;
-	color: #2262AD;
+	color: #5771a2;
 	line-height: 1.15em;
 	margin: 20px 0 ;
 
@@ -176,6 +200,7 @@ p {
 
 .jumbotron {
 	background:transparent!important;
+	position: center;
 }
 
 .thumbnail {

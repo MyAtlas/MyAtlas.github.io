@@ -1,24 +1,27 @@
-<!DOCTYPE HTML>
+<!doctype html>
 
-<html lang=”en”>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<meta name="keywords" content="maps, cartography"/>
-    <meta name="description" content="Responsive Header Nav">
-    <meta name="author" content="Treehouse">
-	
-	<title> Dawson Bancroft-Short</title>
 
-	<!--put your external script links here-->
-	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+
+	<title>Dawson's Portfolio</title>
+
+	<meta name="description" content="Responsive Header Nav">
+	<meta name="keywords" content="maps, cartography"/>
+	<meta name="author" content="Treehouse">
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
 	<!--put your Bootstrap stylesheet links above style.css-->
-	<link rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 
-	<link rel="stylesheet" href="../../css/style.css" />
+		<link rel="stylesheet" href="../../css/styles.css">
+		<link rel="stylesheet" href="contactForm/custom.css">
+
+	<!--put your external script links here-->
+	<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 
 	<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
@@ -27,53 +30,85 @@
 
 <body>
 
-	<!-- Responsive header and collapsable nav -->
+	<header>
 
-	<section class="header">
-		<header>
+		<a href="../../index.html" id="logo"></a>
 
-			<a href="#" id="logo"></a>
+		<nav>
 
-			<nav class="top">
+			<a href="#" id="menu-icon"></a>
+
+			<ul>
+
+				<li><a href="../../index.html">Home</a></li>
+				<li><a href="index.html" class="current">About</a></li>
+				<li><a href="../Resume/ResumeLayoutTemplate_v4.pdf">Resume</a></li>
+				<li><a href="../../index.html#Contact">Contact</a></li>
+
+			</ul>
+
+		</nav>
+
+	</header>
+
+<!-- About Me Content -->
+
+	<section>
+
+	<img src="../../img/AboutBanner_01.jpg" alt="Respond" style="vertical-align: top" class="banner"/>
+
+	<!--Title-->
+    <div class="container" align="center" style="margin-top: 10px">
+        <div class="col-lg-12">
+       	    <h1 align="center">Who I Am</h1>
+        </div>
+    </div>
+
+	<div class="container-fluid">
+		<div type="bio" class="col-xs-12" align="center" style="margin-top: 50px">
+			<p2 style="padding-top: 25px">My name is Dawson Bancroft-Short and the purpose of this website is to introduce you to the most recent life path that I have been focusing on and what I hope to be a lifelong career in GIS and cartography. I grew up flying planes with my grandfather and climbing mountains with my geologist grandmother, so maps have always played a large roll in my life. After high school, I went on to study Environmental Science at Chatham University in Pittsburgh, PA. I played hockey all four years, and for this reason, I have chosen hockey as my theme for my interactive CV map shown below. It was also the only time I saw a chance to be able to make a hockey map in my near future!</p2>
+		</div>
+
+			<br></br>
+
+		<div type="bio" class="col-xs-12" align="center">
+			<p2 style="padding-top: 25px">My time at the University of Wisconsin GIS certificate program has also connected many dots to my background in Environmental Science as well as how to apply them. I am a very open minded person who seeks to constantly keep learning new things and for that reason, I am open to any GIS or cartography opportunity that comes my way. I have a work ethic like an athlete and a mind like a scientist, so I look forward to seeing where I will end up applying these skills. I currently work for the Wisconsin State Cartographer's Office as a student GIS developer where I have worked with SQL, PostGreSQL, shell scripting, python, html, css, and javascript. I am not an expert in any of these, but I have a solid foundation laid for each.<p2>
 
 
-				<a href="#" id="menu-icon"></a>
+		</div>
+	</div>
 
-				<ul>
-
-					<li><a href="../../index.html">Home</a></li>
-					<li><a href="index.html"  class="current">About</a></li>
-					<li><a href="../Resume/ResumeLayoutTemplate_v4.pdf">Resume</a></li>
-					<li><a href="../../index.html#Contact">Contact</a></li>
-				</ul>
-
-
-			</nav>
-
-			<img src="../../img/AboutBanner_01.jpg" alt="Respond" class="banner" />
-
-
-		</header>
-
-	<!-- About Me -->
-
-	</section>
-
-	<section class="about">
 		
 	</section>
 
-	<!-- Life Map -->
+	<!-- Hockey Life Map -->
+    <section id="portfolio" align="center">
+    	<div id="lifemap" class="LifeMap">
 
-	<section class="lifemap">
-		
-	</section>
+            <div class="Title">
+                <h1 align="center" style="letter-spacing: 1px">Where I've Been</h1>
+            </div>
 
-	<!-- Footer -->
+    <!-- Interactive Map Section -->
 
-	<section class="footer">
-		
-	</section>
+            <div class="container">
+                <div class="row" align="center">
+                    <div class="col-lg-12 text-center">
+                        <p>Interactive Life Map<br></br>
+                        <p>"It's a great day for Hockey!"</p>
+                    </div>
+                </div>
+
+                <!-- Life Map Container -->
+                <div class="w3-display-container w3-content w3-wide" style="max-width:100%; padding-top: 50px;" id="home" align="center">
+                    <center><iframe width="100%" height="520" frameborder="0" src="https://bancroftshor.carto.com/builder/812740ea-b9c6-11e6-b0bf-0e3ebc282e83/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></center>
+                    <center>
+                    <h2>Zoom in and click on the hockey pucks to see where I have traveled for school and work, as well as other trips that have influenced me.</h2>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
