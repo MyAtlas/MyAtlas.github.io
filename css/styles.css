@@ -129,16 +129,16 @@ section {
 	margin: 80px auto 40px;
 	max-width: 980px;
 	position: relative;
-	padding: 20px
+	padding: 20px;
 
 }
 
 h1 {
 
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #5771a2;
 	line-height: 1.15em;
-	margin: 20px 0 ;
+	margin: 25px 0 0 0;
 
 }
 
@@ -146,7 +146,7 @@ p {
 
 	line-height: 1.45em;
 	margin-bottom: 20px;
-	font-size: 1.5em;
+	font-size: 1.3em;
 
 }
 
@@ -203,14 +203,26 @@ p {
 	position: center;
 }
 
+.profile {
+	padding: 0px;
+	margin: 0px;
+	height: 50%;
+}
+
 .thumbnail {
-	padding: 20px;
+	padding: 30px;
+
+}
+
+#PLSS {
+	border: #8a99b6;
+	border-width: 2px;
 }
 
 .Portfolio {
 	height: 100%;
 	width: 100%;
-	padding: 10px;
+	padding: 10px 10px 10px 10px;
 }
 
 /*Contact Form*/
