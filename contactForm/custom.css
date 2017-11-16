@@ -1,0 +1,36 @@
+body {
+    font-family: bicycle;
+    font-size: 1.5em;
+}
+h1{
+    margin-bottom: 40px;
+    font-size: 1.5em;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.right {
+    width: 480px;
+    float: right;
+
+}
+
+.left {
+    width: 480px;
+    float: left;    
+
+}
+
+/*Fonts*/
+
+@font-face {
+	font-family: bicycle;
+	src: url(../css/fonts/bicycle/bicycle-regular2.otf);
+}

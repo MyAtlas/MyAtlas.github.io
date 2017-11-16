@@ -1,22 +1,29 @@
-<!DOCTYPE HTML>
+<!doctype html>
 
-<html lang=”en”>
+<html lang="en">
 
 <head>
+
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<title>Dawson's Portfolio</title>
+
+	<meta name="description" content="Responsive Header Nav">
 	<meta name="keywords" content="maps, cartography"/>
-	
-	<title> Dawson Bancroft-Short</title>
+	<meta name="author" content="Treehouse">
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+	<!--put your Bootstrap stylesheet links above style.css-->
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="contactForm/custom.css">
 
 	<!--put your external script links here-->
 	<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 
-	<!--put your Bootstrap stylesheet links above style.css-->
-	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-
-	<link rel="stylesheet" href="css/style.css" />
+	<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 
 </head>
@@ -25,96 +32,76 @@
 
 	<header>
 
-	<!--Navigation-->
-        <nav align="center" style="white-space: inherit">
-            <ul>
-            	<a href="index.html"><li>Home</li></a>
-            	<a href="assets/AboutMe/index.html"><li>About</li></a>
-            	<a href="assets/Resume/ResumeLayoutTemplate_v4.pdf"><li>Resume</li></a>
-            	<a href="#Contact"><li>Contact</li></a>
-            </ul>
-        </nav>
+		<a href="assets/AboutMe/index.html" id="logo"></a>
 
+		<nav>
 
+			<a href="#" id="menu-icon"></a>
 
-	<!--Title-->
-    <div class="container" align="center">
-        <div class="col-lg-12" style="margin-top: 80px">
-           	<center>
-           		<h1 class="desktop" align="center">CARTOGRAPHER</h1>
-                <br>	
-        		<p align="center">GIS Developer // Hockey Coach // Human Being</p>
-        	</center>
-        </div>
-    </div>
+			<ul>
+
+				<li><a href="#" class="current">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Work</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+
+			</ul>
+
+		</nav>
 
 	</header>
 
-<br></br>
+<section>
 
-<!-- Profile Section-->
+	<img src="img/Banner_01.jpg" alt="Respond" style="vertical-align: top" class="banner"/>
 
-<div class="Profile" style="margin-bottom: 100px">
+<!-- Profile Section -->
 
-		<div class="Title">
-			<h2 align="center" style="letter-spacing: 1px; top-margin: 50px">Profile</h2>
-		</div>
+	<h1 align="center">Profile</h1>
 
-    <!-- Buttons -->
+	<!-- Buttons 3.0 -->
+	<div style="background: transparent" class="jumbotron">
+	    <div class="container">
+	        <div class="row" align="center">
+	            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail">
+	            	<a href="https://bancroftshor.carto.com/builder/812740ea-b9c6-11e6-b0bf-0e3ebc282e83/embed">
+	            	<img src="assets/Homepage/images/MapButton.gif" alt="Life Map"></a>
+	            	<br></br>
+	            	<a href="mailto:bancroftshor@wisc.edu">
+	            	<img src="assets/Homepage/images/ContactButton.gif" alt="Email"></a>
+	            </div>
+	            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+	                <img src="assets/Homepage/images/ProfilePic.jpg" alt="Profile" >
+	            </div>
+	            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail">
+	            	<a href="#skills">
+	            	<img src="assets/Homepage/images/SkillsButton.gif" alt="Skills"></a>
+	            	<br></br>         
+	            	<a href="assets/Resume/ResumeLayoutTemplate_v4.pdf">
+	            	<img src="assets/Homepage/images/ExperiencesButton.gif" alt="Resume"></a>	               	           
+	            </div>
+	        </div>
+	    </div>
+	</div>
 
-    <!-- Buttons 2.0 -->
-    <div class="container">
-        <div class="row" align="center">
-    <!--         <div class="col-xs-12 col-sm-2 thumbnail">
-                <a href="https://bancroftshor.carto.com/builder/812740ea-b9c6-11e6-b0bf-0e3ebc282e83/embed">
-                <img src="assets/Homepage/images/MapButton.gif" alt="Life Map"></a>
-            </div> -->
+    <!-- Profile Text -->
+	<div style="background: transparent" class="jumbotron">
+		<p align="center">Motto:</br>“Everything is a Map of Everything”</br></p>
 
-            <div class="col-xs-12 col-sm-4 thumbnail">
-                <a href="https://bancroftshor.carto.com/builder/812740ea-b9c6-11e6-b0bf-0e3ebc282e83/embed">
-                <img src="assets/Homepage/images/MapButton.gif" alt="Life Map" style="padding-left: 50px; padding-right: 50px"></a>
-                <a href="mailto:bancroftshor@wisc.edu">
-                <img src="assets/Homepage/images/ContactButton.gif" alt="Email" style="padding-left: 50px; padding-right: 50px"></a>
-            </div>
-            <div class="col-xs-12 col-sm-4 thumbnail">
-                <img src="assets/Homepage/images/ProfilePic.jpg" alt="Profile" >
-            </div>
-            <div class="col-xs-12 col-sm-4 thumbnail">
-                <a href="#skills">
-                <img src="assets/Homepage/images/SkillsButton.gif" alt="Skills" style="padding-right: 50px; padding-left: 50px"></a>
-                <a href="assets/Resume/ResumeLayoutTemplate_v4.pdf">
-                <img src="assets/Homepage/images/ExperiencesButton.gif" alt="Resume" style="padding-right: 50px; padding-left: 50px"></a>
-            </div>
-    <!--         <div class="col-xs-12 col-sm-2 thumbnail">
-                <a href="assets/Resume/ResumeLayoutTemplate_v4.pdf">
-                <img src="assets/Homepage/images/ExperiencesButton.gif" alt="Resume" ></a>
-            </div> -->
-        </div>
-    </div>
+		<p align="center">Professional Interests:</br>GIS Development // GIS Analysis // Agriculture // Remote Sensing</br></p>
 
-</div>	
+		<p align="center">Personal Interests:</br>Sailing // Cooking // Gardening // Hanging out with my dog, Compass // Drumming // Playing Piano</br></p>
+	</div>
 
-    <!-- About Me -->
-    <div class="AboutMe">
-        <div class="container-fluid" style="padding-bottom: 100px">
-            <div type="bio" class="col-xs-12" align="center">
-                <p2>Motto:</br>“Everything is a Map of Everything”</br></p2>
-            </div>
-            <div type="bio" class="col-xs-12" align="center">
-                <p2 align="center">Professional Interests:</br>GIS Development // GIS Analysis // Agriculture // Remote Sensing</br></p2>
-            </div>
-            <div type="bio" class="col-xs-12" align="center">
-                <p2 align="center">Personal Interests:</br>Sailing // Cooking // Gardening // Hanging out with my dog, Compass // Drumming // Playing Piano</br></p2>
-            </div>
-        </div>
-    </div>
+<!-- Skills Section -->
 
 <!-- Skills -->
 
-<div id="skills" class="Skills" style="margin-bottom: 100px">
+<div id="skills" class="Skills jumbotron" style="background: transparent">
 
         <div class="Title">
-            <h2 align="center" style="letter-spacing: 1px; top-margin: 50px">Skills</h2>
+            <h1 align="center" style="letter-spacing: 1px; top-margin: 50px">Skills</h1>
         </div>
 
     <!-- Bars -->
@@ -132,132 +119,183 @@
         </div>
     </div>
 
-</div>  
+</div> 
+
+<!-- Portfolio Section -->
 
 <!-- Portfolio -->
 
-<div id="Portfolio" class="Portfolio" style="margin-bottom: 50px">
+<div id="Portfolio" style="margin-bottom: 50px">
 
         <div class="Title">
-            <h2 align="center" style="letter-spacing: 1px; top-margin: 50px">Portfolio</h2>
+            <h1 align="center" style="letter-spacing: 1px; top-margin: 50px">Portfolio</h1>
         </div>
 
     <!-- Projects -->
-    <div class="container">
+    <div class="jumbotron" style="background: transparent">
 
         <div class="row" align="center">
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <img src="assets/Homepage/images/Portfolio_08.jpg" alt="Concept Piece" style="margin-bottom: 50px">
+                <img src="img/ConceptMedBoth.jpg" alt="Concept Piece" class="Portfolio">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <img src="assets/Homepage/images/CartoPortfolio_10.jpg" alt="Mapbox" style="margin-bottom: 50px">
+                <img src="img/Boa.jpg" alt="Boa" class="Portfolio">
             </div>
 
         </div>
         <div class="row" align="center">
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <img src="assets/Homepage/images/Portfolio_35.jpg" alt="Bike Route" style="margin-bottom: 50px">
+                <img src="img/Bike.jpg" alt="Bike Route" class="Portfolio">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <img src="assets/Homepage/images/Portfolio_42.jpg" alt="PLSS" style="margin-bottom: 50px"></a>
+                <img src="img/WDC.jpg" alt="WDC" class="Portfolio">
             </div>
 
         </div>
         <div class="row" align="center">
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <img src="assets/Homepage/images/HPA_19.jpg" alt="High Plains Aquifer" style="margin-bottom: 50px"></a>
+                <img src="img/HPA.jpg" alt="High Plains Aquifer" class="Portfolio">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <img src="assets/Homepage/images/Portfolio_22.jpg" alt="ControlFinder" style="margin-bottom: 50px">
+                <img src="img/RasterHPA.jpg" alt="Raster Aquifer" class="Portfolio">
+            </div>
+
+        </div>
+        <div class="row" align="center">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <img src="img/PLSS.jpg" alt="PLSS" class="Portfolio">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <img src="img/ControlFinder.jpg" alt="Control Finder" class="Portfolio">
             </div>
 
         </div>
 
     </div>
-</div>  
+</div> 
 
-<!-- Contact Form -->
+<!-- Contact Section -->
 
-<div id="Contact" class="Contact" align="center" style="margin-bottom: 50px">
+<div id="Contact" class="Contact" align="center">
 
         <div class="Title">
-            <h2 align="center" style="letter-spacing: 1px; top-margin: 50px">Contact</h2>
+            <h1 align="center" style="letter-spacing: 1px; top-margin: 50px">Contact</h1>
         </div>
 
-    <!-- Social Media Column 1 -->
+    <!-- Contact Form and Buttons -->
 
     <!-- Buttons 2.0 -->
-    <div class="container">
+
+    <div class="container" align="center" style="background:transparent">
         <div class="row" align="center">
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div class="row" style="vertical-align: middle">
-                    <div>
-                        <a href="mailto:bancroftshor@wisc.edu">
-                        <img src="assets/Homepage/images/EmailButton.gif" alt="Email" style="padding: 10px"></a>
-                    </div>
-                    <div>
-                        <a href="https://www.facebook.com/dbancroftshort">
-                        <img src="assets/Homepage/images/FacebookButton.gif" alt="Facebook" style="padding: 10px"></a>
-                    </div>
-                    <div>
-                        <a href="www.linkedin.com/in/DawsonBancroftShort">
-                        <img src="assets/Homepage/images/LinkedINButton.gif" alt="LinkedIN" style="padding: 10px"></a>
-                    </div>
-                </div>
-            </div>
+	        <div class="jumbotron left" style="background:transparent">
+	            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	                <div class="row">
+	                    <div>
+	                        <a href="mailto:bancroftshor@wisc.edu">
+	                        <img src="img/EmailButton.gif" alt="Email" style="padding: 10px"></a>
+	                    </div>
+	                    <div>
+	                        <a href="https://www.facebook.com/dbancroftshort">
+	                        <img src="img/FacebookButton.gif" alt="Facebook" style="padding: 10px"></a>
+	                    </div>
+	                    <div>
+	                        <a href="www.linkedin.com/in/DawsonBancroftShort">
+	                        <img src="img/LinkedINButton.gif" alt="LinkedIN" style="padding: 10px"></a>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
 
-    <!-- Blurb -->
-        <!-- Do you really need this? -->
+			<!-- Form Column 3.0 -->
+	        <div class="jumbotron right" style="background:transparent">
+	            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	                <div class="row">
 
+	                    <div>
 
-    <!-- Form Column 2 -->
+	                        <form id="contact-form" method="post" action="contact.php" role="form">
 
-            <div class="form container col-xs-12 col-sm-6">
-                <form action="/action_page.php">
+	                            <div class="messages"></div>
 
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+	                            <div class="controls">
 
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	                                <div class="row">
+	                                    <div class="col-md-6">
+	                                        <div class="form-group">
+	                                            <label for="form_name">Firstname *</label>
+	                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+	                                            <div class="help-block with-errors"></div>
+	                                        </div>
+	                                    </div>
+	                                    <div class="col-md-6">
+	                                        <div class="form-group">
+	                                            <label for="form_lastname">Lastname *</label>
+	                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+	                                            <div class="help-block with-errors"></div>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                                <div class="row">
+	                                    <div class="col-md-6">
+	                                        <div class="form-group">
+	                                            <label for="form_email">Email *</label>
+	                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+	                                            <div class="help-block with-errors"></div>
+	                                        </div>
+	                                    </div>
+	                                    <div class="col-md-6">
+	                                        <div class="form-group">
+	                                            <label for="form_phone">Phone</label>
+	                                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+	                                            <div class="help-block with-errors"></div>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                                <div class="row">
+	                                    <div class="col-md-12">
+	                                        <div class="form-group">
+	                                            <label for="form_message">Message *</label>
+	                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+	                                            <div class="help-block with-errors"></div>
+	                                        </div>
+	                                    </div>
+	                                    <div class="col-md-12">
+	                                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+	                                    </div>
+	                                </div>
+	                                <div class="row">
+	                                    <div class="col-md-12">
+	                                        <p class="text-muted"><strong>*</strong> These fields are required.</p>
+	                                    </div>
+	                                </div>
+	                            </div>
 
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                      <option value="australia">Australia</option>
-                      <option value="canada">Canada</option>
-                      <option value="usa">USA</option>
-                    </select>
+	                        </form>
 
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	                    </div><!-- /.8 -->
 
-                    <input type="submit" value="Submit">
+	                </div> <!-- /.row-->
 
-                </form>
-            </div>
-        </div>
+	            </div>
+	        </div>
+
+	    </div>
     </div>
+
 </div>
 
-<!-- Footer -->
+</section>
 
-<footer>
-
-<!--Navigation-->
-    <nav align="center">
-        <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="assets/AboutMe/index.html"><li>About</li></a>
-            <a href="assets/Resume/ResumeLayoutTemplate_v4.pdf"><li>Resume</li></a>
-            <a href="#Contact"><li>Contact</li></a>
-        </ul>
-    </nav>
-
-</footer>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="contactForm/validator.js"></script>
+        <script src="contactForm/contact.js"></script>
 
 </body>
 
