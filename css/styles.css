@@ -246,6 +246,12 @@ p {
 	margin: 0 auto 0 auto;
 }
 
+.skills {
+	width: auto ;
+	max-width: auto;
+	height: auto ;
+}
+
 /*Fonts*/
 
 @font-face {
